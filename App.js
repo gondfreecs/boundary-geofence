@@ -70,7 +70,7 @@ export default class App extends React.Component {
     })
     .catch((err) => {
       console.error(err.message);
-    })   
+    })    
 
   // EVENT ENTRER
   Boundary.on(Events.ENTER, id => {
